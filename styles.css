@@ -92,7 +92,7 @@ td:hover {
         width: 100%;
     }
     .table1 th, tr, td{
-        padding: 2px;
+        padding: 10px;
         font-size: 10px;  
     }
     .select-year{
