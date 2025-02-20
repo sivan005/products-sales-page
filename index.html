@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Sales Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Customer order form -->
+    <div class="form-container">
+        <h2>Customer Order Form</h2>
+        <form action="#" method="post">
+            <label for="username">Customer Username :</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="date">Date :</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="product">Product :</label>
+            <select id="product" name="product" required>
+                <option value="">Select a product</option>
+                <option value="Product 1">Product 1</option>
+                <option value="Product 2">Product 2</option>
+                <option value="Product 3">Product 3</option>
+            </select>
+
+            <label for="quantity">Quantity :</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <label for="amount">Amount :</label>
+            <input type="number" id="amount" name="amount" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- table -->
+    
+    <h2>Customer Sales Data</h2>
+
+    <table class="table1">
+        <thead class="Customer-sales-data">
+            <tr>
+                <th>Customer Username</th>
+                <th>Dates</th>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total Sale Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vasanth</td>
+                <td>2.02.2024</td>
+                <td>Smartphone</td>
+                <td>2</td>
+                <td>$500</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>Mani</td>
+                <td>3.02.2024</td>
+                <td>Laptop</td>
+                <td>1</td>
+                <td>$1200</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>Aravind</td>
+                <td>4.02.2024</td>
+                <td>Headphones</td>
+                <td>1</td>
+                <td>$150</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Bharath</td>
+                <td>7.02.2024</td>
+                <td>T-Shirt</td>
+                <td>3</td>
+                <td>$100</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Siva</td>
+                <td>10.02.2024</td>
+                <td>Face Cream</td>
+                <td>1</td>
+                <td>$100</td>
+                <td>$100</td>
+            </tr>
+        </tbody>
+    </table>
+
+<!-- Select year -->
+    <div class="select-year">
+        <p>Select Year</p>
+        <select id="year" name="year" required>
+            <option value="year">2025</option>
+            <option value="year">2024</option>
+            <option value="year">2023</option>
+            <option value="year">2022</option>
+            <option value="year">2021</option>
+            <option value="year">2020</option>
+            <option value="year">2019</option>
+            <option value="year">2018</option>
+            <option value="year">2017</option>
+            <option value="year">2016</option>
+            <option value="year">2015</option>
+            <option value="year">2014</option>
+            <option value="year">2013</option>
+            <option value="year">2012</option>
+            <option value="year">2011</option>
+            <option value="year">2010</option>
+        </select>
+    </div>
+
+
+    <!-- Monthly Sales Summary (table 3) -->
+    <h2>This Year 2025 Monthly Sales Summary</h2>
+    <table>
+        <thead class="monthly-sales-summary">
+            <tr>
+                <th>Month</th>
+                <th>Total Products Sold</th>
+                <th>Total Sales ($)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>50</td>
+                <td>$25,000</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>40</td>
+                <td>$20,000</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!-- before Monthly Sales Summary (table 2)  -->
+    <h2>Monthly Sales Summary of 2024</h2>
+    <table>
+        <thead class="monthly-sales-summary">
+            <tr>
+                <th>Month</th>
+                <th>Total Products Sold</th>
+                <th>Total Sales ($)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>50</td>
+                <td>$25,000</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>40</td>
+                <td>$20,000</td>
+            </tr>
+            <tr>
+                <td>March</td>
+                <td>60</td>
+                <td>$30,000</td>
+            </tr>
+            <tr>
+                <td>April</td>
+                <td>70</td>
+                <td>$50,000</td>
+            </tr>
+            <tr>
+                <td>May</td>
+                <td>90</td>
+                <td>$100,000</td>
+            </tr>
+            <tr>
+                <td>June</td>
+                <td>60</td>
+                <td>$90,000</td>
+            </tr>
+            <tr>
+                <td>July</td>
+                <td>70</td>
+                <td>$90,000</td>
+            </tr>
+            <tr>
+                <td>August</td>
+                <td>80</td>
+                <td>105,000</td>
+            </tr>
+            <tr>
+                <td>September</td>
+                <td>48</td>
+                <td>$65,000</td>
+            </tr>
+            <tr>
+                <td>October</td>
+                <td>90</td>
+                <td>$130,000</td>
+            </tr>
+            <tr>
+                <td>November</td>
+                <td>100</td>
+                <td>$150,000</td>
+            </tr>
+            <tr>
+                <td>December</td>
+                <td>110</td>
+                <td>$170,000</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
